@@ -1,0 +1,54 @@
+# This .yml file contains all the questions to run the app
+---
+# This is the cache for images used for the icons in keyword question
+images:
+  FV: Domestic_Violence_Icon.png
+  MENTH: Mental_Health_Icon.png
+  SA: Substance_Abuse_Icon.png
+  HM: Home_Icon.png
+  BAIL: Bail_Icon.png
+  FNCE: Financial_Assistance_Icon.png
+  DI: Mental_Dissability_Icon.png
+  DP: Disability_Icon.png
+  MEDH: Medical_Icon.jpg
+---
+# Initals are being used to identify the client for administrative reasons without comprimising privacy
+question: Please add a way to identify the client?
+subquestion: | 
+  Please add the clients intials or a way to identify them without using their full name. This is to allow ALRM to keep track of which services have been utilised for specified referral with each respective client.
+fields:
+  - no label: ALRMinitals
+    default: ${ ALRM_default_i }
+---
+question: What is the clients age?
+fields:
+  - no label: ALRMage
+    datatype: integer
+    default: ${ ALRM_default_a }
+---
+question: What is the clients gender?
+fields:
+@@ -37,7 +35,6 @@ fields:
+      - Male
+      - Female
+      - Prefer not to specify
+    default: ${ ALRM_default_g }
+---
+# icons added to clarify choices and for engagment purposes
+question: Category
+@@ -68,7 +65,6 @@ fields:
+        image: DP
+      - Medical Health: Medical Health
+        image: MEDH
+    default: ${ ALRM_default_c }
+
+---
+# help que added to pop up on the side in order to indetify what suburbs are included, the list however is not exaustive. An interative map would be more helpful
+@@ -139,7 +135,6 @@ fields:
+          - Renmark
+          - Berri
+      - Murray Bridge: Murray Bridge
+    default: ${ ALRM_default_l }
+---
+code: |
+  ALRM_default_i = 'ALRM'

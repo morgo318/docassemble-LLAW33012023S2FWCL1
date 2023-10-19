@@ -1,2 +1,8 @@
-# docassemble-LLAW33012023S2FWCL1
-The official project repository for FWCL1
+# docassemble.LLAW33012023S2FWCL1
+
+A docassemble extension.
+
+## Author
+
+Monica Domaracki, doma0026@flinders.edu.au
+
