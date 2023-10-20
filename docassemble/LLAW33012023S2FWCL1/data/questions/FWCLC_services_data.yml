@@ -1,0 +1,354 @@
+---
+variable name: FWservices
+use objects: True
+data:
+  - name: Marri Ma Health
+    address: 428 Argent St, Broken Hill NSW 2880
+    email: info@maarima.com.au
+    website: https://www.maarima.com.au/
+    phone: (08) 8082 9777
+    fax: (08) 8082 9778
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill GP Super Clinic
+    address: 235 Thomas St, Broken Hill NSW 2880
+    website: https://bhgpsc.com.au/
+    phone: (08) 8088 7044
+    fax: (08) 8088 7055
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill Community Health Centre
+    address: Corner of 2-4 Sulphide Street, Broken Hill NSW 2880
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/broken-hill-community-health-centre
+    phone: (08) 8080 1100
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Balranald District Hospital
+    address: Market Street, Balranald NSW 2715
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/balranald-multipurpose-service
+    phone: (03) 5071 9800
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill Base Hospital
+    address: 176 Thomas Street, Broken Hill NSW 2880
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/broken-hill-base-hospital
+    phone: (08) 8080 1300
+    fax: (08) 8080 1696
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Buronga HealthOne
+    address: 3 Pitman Avenue, Buronga NSW 2739
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/buronga-healthone
+    phone: (03) 5021 7200
+    fax: (03) 5021 7281
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Dareton Primary Health Service
+    address: 44-46 Tapio Street, Dareton NSW 2717
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/dareton-primary-health-service
+    phone: (03) 5021 7200
+    fax: (03) 5027 4109
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Ivanhoe Health Service
+    address: 11 Colombus Street, Ivanhoe NSW 2878
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/ivanhoe-health-service
+    phone: (02) 6990 2800
+    fax: (02) 6990 2880
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Menindee Health Service
+    address: 21 Perry Street, Menindee NSW 2879
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/menindee-health-service
+    phone: (08) 8083 2700
+    fax: (08) 8083 2780
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Tibooburra Health Service
+    address: 5 Sturt Street, Tibooburra NSW 2880
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/tibooburra-health-service
+    phone: (08) 8083 2900
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Wentworth Health Service
+    address: 24 Hospital Road, Wentworth NSW 2648
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/wentworth-health-service
+    phone: (03) 5027 5700
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: White Cliffs Health Service
+    address: 46 Johnston Street, White Cliffs NSW 2836
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/white-cliffs-health-service
+    phone: (08) 8083 6200
+    fax: (08) 8083 6280
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Wilcannia Multipurpose Service
+    address: 1-4 Ross Street, Wilcannia NSW 2836
+    website: https://www.nsw.gov.au/health/fwlhd/facilities/wilcannia-multipurpose-service
+    phone: (08) 8083 8700
+    fax: (08) 8083 8780
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Headspace Broken Hill
+    address: 231 Blende Street, Broken Hill NSW 2880
+    email: headspace.brokenhill@flourishaustralia.org.au
+    website: https://headspace.org.au/headspace-centres/broken-hill/
+    phone: (02) 9393 9699
+    fax: (08) 8450 3324
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill Lifeline
+    address: 194 Argent Street, Broken Hill NSW 2880
+    email: admin@llbhc2c.org.au
+    website: https://www.llbhc2c.org.au/
+    phone: (08) 8087 7525
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Mission Australia Family
+    address: 125 Chloride St, Broken Hill NSW 2880
+    website: https://www.missionaustralia.com.au/
+    phone: (08) 8087 2518
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Far West Mental Health Recovery Centre
+    address: Old War Vets Road, Thomas Street Entrance, Broken Hill
+    email: brokenhill@neaminational.org.au
+    website: https://www.neaminational.org.au/
+    phone: (08) 8080 1365
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Aboriginal Legal Services
+    address: 35 Sulphide St, Broken Hill NSW 2880
+    email: brokenhill@alsnswact.org.au
+    website: https://www.alsnswact.org.au/als_broken_hill
+    phone: (08) 8084 2300
+    fax: (08) 8084 2301
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Warra-Warra Legal Services
+    address: 184/186 Argent St, Broken Hill NSW 2880
+    website: https://www.farwestclc.org.au/wwls
+    phone: (08) 8087 6766
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill Legal Aid
+    address: 32 Sulphide Street
+    email: brokenhillcrime@legalaid.nsw.gov.au or brokenhillcivil@legalaid.nsw.gov.au or familybrokenhill@legalaid.nsw.gov.au
+    website: https://www.legalaid.nsw.gov.au/
+    phone: (08) 8004 9600
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Murra Mia Western NSW Aboriginal Tenant Services
+    email: admin@murramia.com
+    website: https://www.tenants.org.au/taas/wataas
+    phone: (02) 4472 9363 or 1800 672 185
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: New England & Western Tenants Advice & Advocacy Service (NEWTAAS)
+    website: https://www.tenants.org.au/taas/newtaas
+    phone: 1800 836 268
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Youth Law
+    website: https://yla.org.au/
+    phone: 1800 950 570
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Senior Rights Service
+    email: info@SeniorsRightsService.org.au
+    website: https://seniorsrightsservice.org.au/
+    phone: 1800 424 079
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Legal Aid NSW
+    website: https://www.legalaid.nsw.gov.au/
+    phone: 1300 888 529
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Centrelink through Services Australia
+    address: 180 Beryl St, Broken Hill NSW 2880
+    website: https://www.servicesaustralia.gov.au/
+    phone: 13 24 68
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Staying Home Leaving Violence (SHLV)
+    address: 304 Oxide Street, Broken Hill NSW 2880
+    website: https://www.farwestclc.org.au/shlvbh
+    phone: (08) 8088 2520
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Women's Domestic Violence Court Advocacy Service (WDVCAS)
+    address: 304 Oxide Street, Broken Hill NSW 2880
+    website: https://www.farwestclc.org.au/shlvbh
+    phone: (08) 8087 2053
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Wilcannia Safe House
+    email: admin@dvnswsm.org.au
+    website: https://dvnswsm.org.au/wsh/#
+    phone: (02) 9621 0800
+    gender:
+      - Male
+      - Female
+  - name: Malee Accommodation & Support Program
+    address: 24 Millie Street, Dareton NSW 2717
+    email: nswreferrals@masp.org.au
+    website: https://masp.org.au/
+    phone: (03) 5021 6500
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Financial Rights Legal Centre - Credit and Debt Legal Advice
+    website: https://financialrights.org.au/
+    phone: 1800 844 949
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Financial Rights Legal Centre - National Debt Helpline
+    website: https://financialrights.org.au/
+    phone: 1800 007 007
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Financial Rights Legal Centre - Mob Strong Debt Help
+    website: https://financialrights.org.au/
+    phone: 1800 808 488
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Rural Financial Counselling Service NSW
+    website: https://rfcsnsw.com.au/
+    phone: 1800 319 458
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Wilcannia Safe House
+    email: admin@dvnswsm.org.au
+    website: https://dvnswsm.org.au/wsh/
+    phone: (02) 9621 0800
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Malee Accommodation & Support Program
+    address: 24 Millie Street, Dareton NSW 2717
+    email: nswreferrals@masp.org.au
+    website: https://masp.org.au/
+    phone: (03) 5021 6500
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Link2home
+    website: https://www.facs.nsw.gov.au/housing/help/ways/are-you-homeless
+    phone: 1800 152 152
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill Adults and Families Housing Support Services Formerly Catherine Haven
+    address: 633 Lane Street, Broken Hill NSW 2880
+    website: https://www.salvationarmy.org.au/brokenhill/social-programs/broken-hill-adults-and-families-housing-support-service/
+    phone: (08) 8087 1999
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Broken Hill Court House
+    address: 238 Argent Street, Broken Hill NSW 2880
+    email: local-court-broken-hill@justice.nsw.gov.au
+    website: https://www.service.nsw.gov.au/nswgovdirectory/broken-hill-court-house
+    phone: (08) 8084 3300
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: NSW Police
+    address: 80 Blende Street, Broken Hill NSW 2880
+    website: https://www.police.nsw.gov.au/about_us/regions_commands_districts/western_region/barrier/broken_hill_police_station
+    phone: (08) 8087 0299
+    fax: (08) 8087 0244
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Disability Advocacy NSW
+    email: referrals@da.org.au
+    website: https://www.da.org.au/
+    phone: 1300 365 085
+    fax: (02) 4927 0114
+    gender:
+      - Male
+      - Female
+      - Other
+  - name: Disability Advocacy NSW
+    email: referrals@da.org.au
+    website: https://www.da.org.au/
+    phone: 1300 365 085
+    fax: (02) 4927 0114
+    gender:
+      - Male
+      - Female
+      - Other
