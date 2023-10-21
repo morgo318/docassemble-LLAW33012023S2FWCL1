@@ -1,4 +1,15 @@
 ---
+# list of services in dictionary form that can be appeneded 
+# to add another service easily fill out the blank template below and add under data  
+#  - name:                                                                
+#  - address:
+#  - email:
+#  - website:
+#  - phone:
+#  - fax:
+#  - gender:
+#  - key term:
+#  - ATSI:
 variable name: FWservices
 use objects: True
 data:
@@ -12,6 +23,8 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
+    ATSI: yes and no
   - name: Broken Hill GP Super Clinic
     address: 235 Thomas St, Broken Hill NSW 2880
     website: https://bhgpsc.com.au/
@@ -21,6 +34,8 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
+    Aboriginal or Torres Strait Islander: yes and no
   - name: Broken Hill Community Health Centre
     address: Corner of 2-4 Sulphide Street, Broken Hill NSW 2880
     website: https://www.nsw.gov.au/health/fwlhd/facilities/broken-hill-community-health-centre
@@ -29,6 +44,8 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
+    Aboriginal or Torres Strait Islander: yes and no
   - name: Balranald District Hospital
     address: Market Street, Balranald NSW 2715
     website: https://www.nsw.gov.au/health/fwlhd/facilities/balranald-multipurpose-service
@@ -37,6 +54,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Broken Hill Base Hospital
     address: 176 Thomas Street, Broken Hill NSW 2880
     website: https://www.nsw.gov.au/health/fwlhd/facilities/broken-hill-base-hospital
@@ -46,6 +64,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Buronga HealthOne
     address: 3 Pitman Avenue, Buronga NSW 2739
     website: https://www.nsw.gov.au/health/fwlhd/facilities/buronga-healthone
@@ -55,6 +74,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Dareton Primary Health Service
     address: 44-46 Tapio Street, Dareton NSW 2717
     website: https://www.nsw.gov.au/health/fwlhd/facilities/dareton-primary-health-service
@@ -64,6 +84,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Ivanhoe Health Service
     address: 11 Colombus Street, Ivanhoe NSW 2878
     website: https://www.nsw.gov.au/health/fwlhd/facilities/ivanhoe-health-service
@@ -73,6 +94,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Menindee Health Service
     address: 21 Perry Street, Menindee NSW 2879
     website: https://www.nsw.gov.au/health/fwlhd/facilities/menindee-health-service
@@ -82,6 +104,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Tibooburra Health Service
     address: 5 Sturt Street, Tibooburra NSW 2880
     website: https://www.nsw.gov.au/health/fwlhd/facilities/tibooburra-health-service
@@ -90,6 +113,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Wentworth Health Service
     address: 24 Hospital Road, Wentworth NSW 2648
     website: https://www.nsw.gov.au/health/fwlhd/facilities/wentworth-health-service
@@ -98,6 +122,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: White Cliffs Health Service
     address: 46 Johnston Street, White Cliffs NSW 2836
     website: https://www.nsw.gov.au/health/fwlhd/facilities/white-cliffs-health-service
@@ -107,6 +132,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Wilcannia Multipurpose Service
     address: 1-4 Ross Street, Wilcannia NSW 2836
     website: https://www.nsw.gov.au/health/fwlhd/facilities/wilcannia-multipurpose-service
@@ -116,6 +142,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Health Service
   - name: Headspace Broken Hill
     address: 231 Blende Street, Broken Hill NSW 2880
     email: headspace.brokenhill@flourishaustralia.org.au
@@ -126,6 +153,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Mental Health Service
   - name: Broken Hill Lifeline
     address: 194 Argent Street, Broken Hill NSW 2880
     email: admin@llbhc2c.org.au
@@ -135,6 +163,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Mental Health Service
   - name: Mission Australia Family
     address: 125 Chloride St, Broken Hill NSW 2880
     website: https://www.missionaustralia.com.au/
@@ -143,6 +172,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Mental Health Service
   - name: Far West Mental Health Recovery Centre
     address: Old War Vets Road, Thomas Street Entrance, Broken Hill
     email: brokenhill@neaminational.org.au
@@ -152,6 +182,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Mental Health Service
   - name: Aboriginal Legal Services
     address: 35 Sulphide St, Broken Hill NSW 2880
     email: brokenhill@alsnswact.org.au
@@ -162,6 +193,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Legal Services
   - name: Warra-Warra Legal Services
     address: 184/186 Argent St, Broken Hill NSW 2880
     website: https://www.farwestclc.org.au/wwls
@@ -170,6 +202,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Legal Services
   - name: Broken Hill Legal Aid
     address: 32 Sulphide Street
     email: brokenhillcrime@legalaid.nsw.gov.au or brokenhillcivil@legalaid.nsw.gov.au or familybrokenhill@legalaid.nsw.gov.au
@@ -179,6 +212,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Legal Services
   - name: Murra Mia Western NSW Aboriginal Tenant Services
     email: admin@murramia.com
     website: https://www.tenants.org.au/taas/wataas
@@ -187,6 +221,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Tenancy Services
   - name: New England & Western Tenants Advice & Advocacy Service (NEWTAAS)
     website: https://www.tenants.org.au/taas/newtaas
     phone: 1800 836 268
@@ -194,6 +229,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Tenancy Services
   - name: Youth Law
     website: https://yla.org.au/
     phone: 1800 950 570
@@ -201,7 +237,8 @@ data:
       - Male
       - Female
       - Other
-  - name: Senior Rights Service
+    key term: Youth Law
+  - name: Seniors Rights Service
     email: info@SeniorsRightsService.org.au
     website: https://seniorsrightsservice.org.au/
     phone: 1800 424 079
@@ -209,6 +246,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Seniors Rights Service
   - name: Legal Aid NSW
     website: https://www.legalaid.nsw.gov.au/
     phone: 1300 888 529
@@ -216,6 +254,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Seniors Rights Service
   - name: Centrelink through Services Australia
     address: 180 Beryl St, Broken Hill NSW 2880
     website: https://www.servicesaustralia.gov.au/
@@ -224,29 +263,31 @@ data:
       - Male
       - Female
       - Other
+    key term: Centrelink
   - name: Staying Home Leaving Violence (SHLV)
     address: 304 Oxide Street, Broken Hill NSW 2880
     website: https://www.farwestclc.org.au/shlvbh
     phone: (08) 8088 2520
     gender:
-      - Male
       - Female
       - Other
+    key term: Domestic Violence Services
   - name: Women's Domestic Violence Court Advocacy Service (WDVCAS)
     address: 304 Oxide Street, Broken Hill NSW 2880
     website: https://www.farwestclc.org.au/shlvbh
     phone: (08) 8087 2053
     gender:
-      - Male
       - Female
       - Other
+    key term: Domestic Violence Services
   - name: Wilcannia Safe House
     email: admin@dvnswsm.org.au
     website: https://dvnswsm.org.au/wsh/#
     phone: (02) 9621 0800
     gender:
-      - Male
       - Female
+      - Other
+    key term: Domestic Violence Shelter
   - name: Malee Accommodation & Support Program
     address: 24 Millie Street, Dareton NSW 2717
     email: nswreferrals@masp.org.au
@@ -256,6 +297,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Domestic Violence Shelter
   - name: Financial Rights Legal Centre - Credit and Debt Legal Advice
     website: https://financialrights.org.au/
     phone: 1800 844 949
@@ -263,6 +305,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Finance Services
   - name: Financial Rights Legal Centre - National Debt Helpline
     website: https://financialrights.org.au/
     phone: 1800 007 007
@@ -270,6 +313,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Finance Services
   - name: Financial Rights Legal Centre - Mob Strong Debt Help
     website: https://financialrights.org.au/
     phone: 1800 808 488
@@ -277,6 +321,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Finance Services
   - name: Rural Financial Counselling Service NSW
     website: https://rfcsnsw.com.au/
     phone: 1800 319 458
@@ -284,14 +329,15 @@ data:
       - Male
       - Female
       - Other
+    key term: Finance Services
   - name: Wilcannia Safe House
     email: admin@dvnswsm.org.au
     website: https://dvnswsm.org.au/wsh/
     phone: (02) 9621 0800
     gender:
-      - Male
       - Female
       - Other
+    key term: Homelessness Services
   - name: Malee Accommodation & Support Program
     address: 24 Millie Street, Dareton NSW 2717
     email: nswreferrals@masp.org.au
@@ -301,6 +347,16 @@ data:
       - Male
       - Female
       - Other
+    key term: Homelessness Services
+  - name: Mission Australia Family
+    address: 125 Chloride St, Broken Hill NSW 2880
+    website: https://www.missionaustralia.com.au/
+    phone: (08) 8087 2518
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Homelessness Services
   - name: Link2home
     website: https://www.facs.nsw.gov.au/housing/help/ways/are-you-homeless
     phone: 1800 152 152
@@ -308,6 +364,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Homelessness Services
   - name: Broken Hill Adults and Families Housing Support Services Formerly Catherine Haven
     address: 633 Lane Street, Broken Hill NSW 2880
     website: https://www.salvationarmy.org.au/brokenhill/social-programs/broken-hill-adults-and-families-housing-support-service/
@@ -316,6 +373,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Homelessness Services
   - name: Broken Hill Court House
     address: 238 Argent Street, Broken Hill NSW 2880
     email: local-court-broken-hill@justice.nsw.gov.au
@@ -325,6 +383,7 @@ data:
       - Male
       - Female
       - Other
+    key term: Broken Hill Court House
   - name: NSW Police
     address: 80 Blende Street, Broken Hill NSW 2880
     website: https://www.police.nsw.gov.au/about_us/regions_commands_districts/western_region/barrier/broken_hill_police_station
@@ -334,6 +393,24 @@ data:
       - Male
       - Female
       - Other
+    key term: NSW Police
+  - name: Mission Australia Family
+    address: 125 Chloride St, Broken Hill NSW 2880
+    website: https://www.missionaustralia.com.au/
+    phone: (08) 8087 2518
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Disability Services
+  - name: Legal Aid NSW
+    website: https://www.legalaid.nsw.gov.au/
+    phone: 1300 888 529
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Disability Services
   - name: Disability Advocacy NSW
     email: referrals@da.org.au
     website: https://www.da.org.au/
@@ -343,12 +420,13 @@ data:
       - Male
       - Female
       - Other
-  - name: Disability Advocacy NSW
-    email: referrals@da.org.au
-    website: https://www.da.org.au/
-    phone: 1300 365 085
-    fax: (02) 4927 0114
+    key term: Disability Services
+  - name: Mission Australia Family
+    address: 125 Chloride St, Broken Hill NSW 2880
+    website: https://www.missionaustralia.com.au/
+    phone: (08) 8087 2518
     gender:
       - Male
       - Female
       - Other
+    key term: Disability Services
