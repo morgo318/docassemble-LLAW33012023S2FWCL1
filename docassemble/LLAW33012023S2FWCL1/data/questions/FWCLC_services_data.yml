@@ -1210,15 +1210,4 @@ data:
       - Female
       - Other
     key term: Immigration
-    ATSI: True
-  - name: Immigration Advice and Rights Centre
-    address: Suite 3 level 8/377-383 Sussex St, Sydney NSW 2000
-    email: info@iarc.org.au
-    website: https://iarc.org.au/
-    phone: (02) 8234 0700
-    gender:
-      - Male
-      - Female
-      - Other
-    key term: Immigration
-    ATSI: True
+    ATSI: False
