@@ -679,7 +679,7 @@ data:
       - Male
       - Female
       - Other
-    key term: Centrelink
+    key term: Centrelink/Issues with Centrelink
     ATSI: True
   - name: Centrelink through Services Australia
     address: 180 Beryl St, Broken Hill NSW 2880
@@ -689,7 +689,27 @@ data:
       - Male
       - Female
       - Other
-    key term: Centrelink
+    key term: Centrelink/Issues with Centrelink
+    ATSI: False
+  - name: Welfare Rights Centre
+    address: Suite 102/55 Holt St, Surry Hills NSW 2010
+    website: https://welfarerightscentre.org.au/
+    phone: 1800 226 028
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Centrelink/Issues with Centrelink
+    ATSI: True
+  - name: Welfare Rights Centre
+    address: Suite 102/55 Holt St, Surry Hills NSW 2010
+    website: https://welfarerightscentre.org.au/
+    phone: 1800 226 028
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Centrelink/Issues with Centrelink
     ATSI: False
   - name: Staying Home Leaving Violence (SHLV)
     address: 304 Oxide Street, Broken Hill NSW 2880
@@ -1180,3 +1200,25 @@ data:
       - Other
     key term: Substance Abuse Services
     ATSI: False
+  - name: Immigration Advice and Rights Centre
+    address: Suite 3 level 8/377-383 Sussex St, Sydney NSW 2000
+    email: info@iarc.org.au
+    website: https://iarc.org.au/
+    phone: (02) 8234 0700
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Immigration
+    ATSI: True
+  - name: Immigration Advice and Rights Centre
+    address: Suite 3 level 8/377-383 Sussex St, Sydney NSW 2000
+    email: info@iarc.org.au
+    website: https://iarc.org.au/
+    phone: (02) 8234 0700
+    gender:
+      - Male
+      - Female
+      - Other
+    key term: Immigration
+    ATSI: True
